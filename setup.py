@@ -9,7 +9,7 @@ with open(readme_filename, encoding='utf-8') as f:
 
 setup(
     name='lyr',
-    version='0.0.1',
+    version='0.0.2',
     description='lyrics providers',
     long_description=long_description,
     long_description_content_type='text/markdown',
