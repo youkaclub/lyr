@@ -58,6 +58,8 @@ def _clean_lyrics(lyrics):
         line = line.strip()
         if line.startswith('[') and line.endswith(']'):
             continue
+        if line.startswith('{') and line.endswith('}'):
+            continue
         if line == '':
             continue
         lines.append(line)
