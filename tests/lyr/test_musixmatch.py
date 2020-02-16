@@ -1,7 +1,7 @@
-from lyr import google
+from lyr import musixmatch
 
-def test_google():
-    query = "ellie goulding your song"
+def test_musixmatch():
+    query = 'ellie goulding your song'
     expected = """It's a little bit funny,
 This feeling inside
 I'm not one of those
@@ -43,5 +43,5 @@ I hope you don't mind
 That I put down in words
 How wonderful life is
 Now you're in the world."""
-    actual = google.lyrics(query)
+    actual = musixmatch.lyrics(query)
     assert actual == expected

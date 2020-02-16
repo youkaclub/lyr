@@ -29,9 +29,7 @@ def _search_multi(query, per_page='3'):
 
 
 def _songs(song_id, text_format='plain'):
-    params = (
-        ('text_format', text_format),
-    )
+    params = (('text_format', text_format), )
     response = requests.get('https://api.genius.com/songs/{}'.format(song_id),
                             headers=headers,
                             params=params)
