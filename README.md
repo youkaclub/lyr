@@ -6,3 +6,10 @@ search lyrics using python.
 - google
 - musixmatch
 - genius
+
+## usage
+```py
+import lyr
+query = 'ellie goulding your song'
+lyrics = lyr.lyrics(query)
+```
