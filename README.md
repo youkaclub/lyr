@@ -1,3 +1,8 @@
 # lyr
 
-lyrics providers.
+search lyrics using python.
+
+## providers
+- google
+- musixmatch
+- genius
