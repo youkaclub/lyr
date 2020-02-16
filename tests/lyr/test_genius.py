@@ -1,4 +1,4 @@
-from lyr import genius
+from lyr.providers import genius
 
 def test_genius():
     query = "ellie goulding your song"

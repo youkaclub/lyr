@@ -1,4 +1,4 @@
-from lyr import musixmatch
+from lyr.providers import musixmatch
 
 def test_musixmatch():
     query = 'ellie goulding your song'

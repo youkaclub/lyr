@@ -1,4 +1,4 @@
-from lyr import google
+from lyr.providers import google
 
 def test_google():
     query = "ellie goulding your song"
