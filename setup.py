@@ -21,6 +21,6 @@ setup(
     install_requires=[
         'bs4==0.0.1',
         'google==2.0.3',
-        'requests==2.21.0',
+        'requests==2.31.0',
     ]
 )
